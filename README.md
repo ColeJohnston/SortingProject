@@ -1,8 +1,7 @@
 # SortingProject
 
 
-#1) Random number generator with balls evenly spaced with radius reflecting value
-#generated with 'r'
+#1) Random number generator with balls evenly spaced with radius reflecting value generated with 'r'
 
 #2) Bubble Sort on 'b'
 
