@@ -102,6 +102,12 @@ void ofApp::keyPressed(int key) {
 	case 'q':
 		quickSort(numbers, 0, numbers.size() - 1);
 		break;
+	case 's':
+		for (int i = numbers.size() - 1; i > 0; --i) {
+			int j = ofRandom(0, i + 1);
+			std::swap(numbers[i], numbers[j]);
+		}
+		break;
 	}
 }
 //--------------------------------------------------------------
